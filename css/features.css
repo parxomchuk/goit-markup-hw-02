@@ -15,3 +15,13 @@
     letter-spacing: 0.02em;
     text-align: left;
 }
+
+.features-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.features-item {
+    width: 264px;
+}

@@ -18,7 +18,7 @@
 .logo-studio-white {
     color: #F4F4FD;
 }
-.menu-nav a {
+.menu-nav-links {
     color: #2E2F42;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -45,4 +45,27 @@
 .contacts a:hover ,
 .contacts a:focus {
     color: #404BBF;
+}
+
+.header-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #E7E9FC;
+    padding: 24px 0;
+    justify-content: flex-start;
+}
+
+.menu-nav-link {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    padding-left: 72px;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    padding-left: 332px;
 }
