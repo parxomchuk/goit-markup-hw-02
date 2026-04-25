@@ -6,8 +6,8 @@
     letter-spacing: 0.02em;
     color: #F4F4FD;
     width: 264px;
-    height: 72px;
     margin-left: 0;
+    padding-top: 16px;
 }
 .footer {
     background-color: #2E2F42;
@@ -15,5 +15,5 @@
     height: 312px;
 }
 .footer-container {
-    padding-top: 120px;
+    padding-top: 100px;
 }

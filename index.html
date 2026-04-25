@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header id="header">
+    <header id="header" class="header">
       <div class="header-container container">
         <a class="logo" href="./index.html">
           <span class="logo-web">Web</span
@@ -50,152 +50,182 @@
     </header>
     <main>
       <section id="hero" class="hero section">
-        <div class="hero-container">
+        <div class="hero-container container">
           <h1 class="hero-text">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-button">Order Service</button>
         </div>
+        <button type="button" class="hero-button">Order Service</button>
       </section>
       <section id="features" class="features section">
-        <h2 class="sr-only">Our features</h2>
-        <ul class="features-list">
-          <li class="features-item">
-            <h3 class="features-heading">Strategy</h3>
-            <p class="features-text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li class="features-item">
-            <h3 class="features-heading">Punctuality</h3>
-            <p class="features-text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li class="features-item">
-            <h3 class="features-heading">Diligence</h3>
-            <p class="features-text">
-              Research and confirm brands with the strongest digital growth
-              opportunities and minimize risk.
-            </p>
-          </li>
-          <li class="features-item">
-            <h3 class="features-heading">Technologies</h3>
-            <p class="features-text">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+        <div class="features-container container">
+          <h2 class="sr-only">Our features</h2>
+          <ul class="features-list">
+            <li class="features-item">
+              <h3 class="features-heading">Strategy</h3>
+              <p class="features-text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-heading">Punctuality</h3>
+              <p class="features-text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-heading">Diligence</h3>
+              <p class="features-text">
+                Research and confirm brands with the strongest digital growth
+                opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-heading">Technologies</h3>
+              <p class="features-text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section id="team" class="team section">
-        <h2 class="heading">Our Team</h2>
-        <ul class="section-team">
-          <li class="team-png">
-            <img
-              src="./images/team-1.jpg"
-              alt="Mark Guerrero Product Designer"
-              width="264"
-              height="260"
-            />
-            <h3 class="team-heading">Mark Guerrero</h3>
-            <p class="team-text">Product Designer</p>
-          </li>
-          <li class="team-png">
-            <img
-              src="./images/team-2.jpg"
-              alt="Tom Ford Frontend Developer"
-              width="264"
-              height="260"
-            />
-            <h3 class="team-heading">Tom Ford</h3>
-            <p class="team-text">Frontend Developer</p>
-          </li>
-          <li class="team-png">
-            <img
-              src="./images/team-3.jpg"
-              alt="Camila Garcia Marketing"
-              width="264"
-              height="260"
-            />
-            <h3 class="team-heading">Camila Garcia</h3>
-            <p class="team-text">Marketing</p>
-          </li>
-          <li class="team-png">
-            <img
-              src="./images/team-4.jpg"
-              alt="Daniel Wilson UI Designer"
-              width="264"
-              height="260"
-            />
-            <h3 class="team-heading">Daniel Wilson</h3>
-            <p class="team-text">UI Designer</p>
-          </li>
-        </ul>
+        <div class="team-container container">
+          <h2 class="heading">Our Team</h2>
+          <ul class="section-team">
+            <li class="team-png">
+              <img
+                src="./images/team-1.jpg"
+                alt="Mark Guerrero Product Designer"
+                width="264"
+                height="260"
+              />
+              <div class="team-content">
+                <h3 class="team-heading">Mark Guerrero</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
+            </li>
+            <li class="team-png">
+              <img
+                src="./images/team-2.jpg"
+                alt="Tom Ford Frontend Developer"
+                width="264"
+                height="260"
+              />
+              <div class="team-content">
+                <h3 class="team-heading">Tom Ford</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="team-png">
+              <img
+                src="./images/team-3.jpg"
+                alt="Camila Garcia Marketing"
+                width="264"
+                height="260"
+              />
+              <div class="team-content">
+                <h3 class="team-heading">Camila Garcia</h3>
+                <p class="team-text">Marketing</p>
+              </div>
+            </li>
+            <li class="team-png">
+              <img
+                src="./images/team-4.jpg"
+                alt="Daniel Wilson UI Designer"
+                width="264"
+                height="260"
+              />
+              <div class="team-content">
+                <h3 class="team-heading">Daniel Wilson</h3>
+                <p class="team-text">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
       <section id="portfolio" class="portfolio section">
-        <h2 class="heading">Our Portfolio</h2>
         <div class="portfolio-container">
+          <h2 class="heading">Our Portfolio</h2>
           <ul class="section-portfolio">
             <li class="portfolio-png">
               <img
+                class="no-gap"
                 src="./images/Portfolio-1.jpg"
                 alt="Application tabs"
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-head">Banking App</h3>
-              <p class="portfolio-text">App</p>
+              <div class="portfolio-content">
+                <h3 class="portfolio-head">Banking App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
             </li>
             <li class="portfolio-png">
               <img
+                class="no-gap"
                 src="./images/Portfolio-2.jpg"
                 alt="Telephone near the terminal"
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-head">Cashless Payment</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-content">
+                <h3 class="portfolio-head">Cashless Payment</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-png">
               <img
+                class="no-gap"
                 src="./images/Portfolio-3.jpg"
                 alt="Laptop and smartphone"
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-head">Meditation App</h3>
-              <p class="portfolio-text">App</p>
+              <div class="portfolio-content">
+                <h3 class="portfolio-head">Meditation App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
             </li>
             <li class="portfolio-png">
               <img
+                class="no-gap"
                 src="./images/Portfolio-4.jpg"
                 alt="A driver in a car with a phone"
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-head">Taxi Service</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-content">
+                <h3 class="portfolio-head">Taxi Service</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-png">
               <img
+                class="no-gap"
                 src="./images/Portfolio-5.jpg"
                 alt="Different phone wallpapers"
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-head">Screen Illustrations</h3>
-              <p class="portfolio-text">Design</p>
+              <div class="portfolio-content">
+                <h3 class="portfolio-head">Screen Illustrations</h3>
+                <p class="portfolio-text">Design</p>
+              </div>
             </li>
             <li class="portfolio-png">
               <img
+                class="no-gap"
                 src="./images/Portfolio-6.jpg"
                 alt="Girl with headphones and a phone"
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-head">Online Courses</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-content">
+                <h3 class="portfolio-head">Online Courses</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
