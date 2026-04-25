@@ -54,6 +54,7 @@
     border-bottom: 1px solid #E7E9FC;
     padding: 24px 0;
     justify-content: flex-start;
+    max-height: 72px;
 }
 
 .menu-nav-link {
