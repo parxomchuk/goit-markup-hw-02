@@ -13,25 +13,25 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .section-portfolio {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    justify-content: center;
     padding-top: 72px;
     row-gap: 48px;
 }
 
 .portfolio-content {
-    border-bottom: 1px solid #E0E0E0;
-    border-right: 1px solid #E0E0E0;
-    border-left: 1px solid #E0E0E0;
-    padding: 32px;
+    border-bottom: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    padding: 32px 16px;
 }
 
-.no-gap {
+.img-portfolio {
     display: block;
 }
 

@@ -9,7 +9,6 @@
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
@@ -31,9 +30,19 @@
     padding-left: 32px;
     gap: 10px;
     border: none;
-    margin: 0 auto;
 }
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404bbf;
+}
+
+#hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
