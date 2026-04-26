@@ -56,14 +56,14 @@ border-bottom: 1px solid #E7E9FC;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
 }
 
 .menu-nav-link {
     display: flex;
     gap: 40px;
     flex-direction: row;
-    padding-right: 332px;
+    padding: 24px 0;
+    margin-right: 332px;
 }
 
 .contacts-list {
