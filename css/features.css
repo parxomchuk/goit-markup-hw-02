@@ -19,9 +19,10 @@
 
 .features-list {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
 }
 
 .features-item {
-    width: calc((100% - 120px) / 6);
+    width: calc((100% - 72px) / 4);
 }
