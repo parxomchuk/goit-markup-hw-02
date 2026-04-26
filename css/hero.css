@@ -12,6 +12,7 @@
     width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
+    text-align: center;
 }
 
 .hero-button {
@@ -36,13 +37,13 @@
     background-color: #404bbf;
 }
 
-#hero {
-    padding-top: 188px;
-    padding-bottom: 188px;
-}
-
 .hero-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
 }

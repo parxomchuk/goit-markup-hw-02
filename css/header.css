@@ -7,7 +7,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-
+    padding-right: 76px;
 }
 
 .header {
@@ -56,30 +56,18 @@ border-bottom: 1px solid #E7E9FC;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 24px 0;
 }
 
 .menu-nav-link {
     display: flex;
     gap: 40px;
     flex-direction: row;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 76px;
+    padding-right: 332px;
 }
 
 .contacts-list {
     display: flex;
     gap: 40px;
     flex-direction: row;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 332px;
-}
-
-.menu-nav-link a {
-    padding: 24px 0;
-}
-
-.contacts-list a {
-    padding: 24px 0;
 }
